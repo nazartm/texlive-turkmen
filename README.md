@@ -13,3 +13,7 @@ Usage:
 
     $ docker run -it -v "$(pwd)":/usr/src/book -w /usr/src/book texlive pdflatex book.tex
 
+Or when using xelatex:
+
+    $ docker run -it -v "$(pwd)":/usr/src/book -w /usr/src/book texlive xelatex book.tex
+
