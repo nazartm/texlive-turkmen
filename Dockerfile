@@ -4,7 +4,10 @@ RUN apt-get update -y \
     && apt-get install -y \
     texlive texlive-latex-recommended \
     texlive-fonts-recommended \
-    texlive-fonts-extra texlive-lang-other
+    texlive-lang-other
+
+# RUN apt-get install texlive-fonts-extra    
+# RUN apt-get install -y texlive-generic-extra texlive-latex-extra
 
 # Uncomment below if you need cyrillic or xelatex
 # RUN apt-get install -y texlive-lang-cyrillic texlive-xetex
